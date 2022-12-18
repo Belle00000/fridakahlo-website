@@ -1,0 +1,516 @@
+body {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+    box-sizing: border-box;
+    background-color: rgb(42, 91, 67);  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    nav {
+        display: flex;
+        align-items:  center;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-right: 2%;
+        padding-left: 2%;
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+        }
+  
+    hr {
+        border-top: 2px solid black;
+        margin: 0;
+        padding: 0;
+        border-bottom: 0;
+        }
+  
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+  
+    .logo {
+        color: black; 
+        font-size: 32px;
+    }
+    
+    .logo2 {
+        color: rgb(51, 149, 100);
+    }
+    
+   li {
+        list-style: none;
+         display: inline-block;
+          padding: 25px;
+    }
+  
+  a {
+    float: left;
+    display: block;
+    position: relative;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    border-bottom: 3px solid transparent;
+    font-weight: bold;
+      }
+      
+  a:hover {
+    border-bottom: 3px solid rgb(51, 149, 100);
+    transition: 0.8s;
+      } 
+
+   .index main {
+    width: 1200px;
+    max-width: 95%;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+
+   .index img {
+    width: 360px;
+    height: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+   }
+
+    .index main h1 {
+        color: rgb(255, 255, 255);
+        margin: 20px 0px 20px -8px;
+        font-size: 100px;
+        
+    }
+
+    .index span {
+        color: transparent;
+        font-size: 130px;
+        margin: 20px 0px 20px -8px;
+        -webkit-text-stroke: 2px rgb(51, 149, 100); /*omlijning woord*/
+        background-image: url(../Images/Mijn\ project\ \(1\).png); /*png zelf gemaakt op illustrator*/
+        -webkit-background-clip: text; /*zodat de achtergrond in de tekst komt ipv erbuiten*/
+        animation: back 20s linear infinite;
+    }
+
+    @keyframes back {
+        100% {
+            background-position: 3500px 0; /*afspeelsnelheid*/
+        }
+    }
+
+    .extra {
+        color: rgb(202, 201, 201);
+        font-size: 65px;
+        margin: 20px 0px 20px -5px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .button a {
+        background-color: rgb(42, 91, 67); 
+        height: 1.8em;
+        width: 6.25em;
+        border-radius: 3em;
+        color: white;
+        border: 2px solid rgb(51, 149, 100);
+        padding: 14px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 21px;
+        margin-left: 36%;
+        margin-top: 5%;
+        transition-duration: 0.4s;
+    }
+
+    .button :hover {
+        background-color: rgb(51, 149, 100);
+        color: white;
+      }
+    
+      .button span {
+        font-size: 30px;
+        line-height: 15px;
+        margin-left: 5px;
+        color: white;
+      }
+
+    .index main p {
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about main{
+        background-color: #b1b1b1;
+        width: 100%;
+        height: auto;
+    }
+    
+    .main1 img {
+        height: auto;
+        width: 430px;
+        margin-top: 5em;
+        margin-bottom: 3em;
+        border-radius: 10%;
+    }
+    
+    .content1 {
+        width: 550px;
+    }
+    
+    .main1 {
+        width: 1130px;
+        max-width: 95%;
+        margin:  0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 11%;
+    }
+
+    .main2 img {
+        height: auto;
+        width: 430px;
+        margin-top: 5em;
+        margin-bottom: 3em;
+        border-radius: 10%;
+    }
+    
+    .content1 h2 {
+        color: white;
+        font-size: 3em;
+    }
+    
+    .jaartal {
+        text-decoration: underline;
+    }
+
+    a#scrolldown {
+        position: absolute;
+        height: 23px;
+        width: 6.25em;
+        border: 2px solid white;
+        margin: auto;
+        left: 3.5em;
+        right: 0;
+        bottom: 6.25em;
+        border-radius: 3em;
+        color: white;
+        background: none;
+        transition-duration: 0.4s;
+    }
+
+    a#scrolldown :hover {
+        background-color: white;
+        color: black;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .content1 p {
+        color: white;
+        font-size: 24px;
+    }
+    
+    .about1 {
+        height: auto;
+        width: 430px;
+        border-radius: 10%;
+    }
+    
+    .content2 {
+        width: 550px;
+    }
+    
+    .main2 {
+        width: 1130px;
+        max-width: 95%;
+        margin:  0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 11%; 
+    }
+    
+    .content2 h2 {
+        color: white;
+        font-size: 3em;
+    }
+    
+    .content2 p {
+        color: white;
+        font-size: 20px;
+    }
+    
+    .about1 {
+    padding-top: 3em;
+    }
+    
+    .about2 {
+        height: auto;
+        width: 430px;
+        border-radius: 10%;
+    }
+    
+    .content3 {
+        width: 550px;
+    }
+    
+    .main3 {
+        width: 1130px;
+        max-width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-left: 11%;
+        padding-bottom: 8%;
+    }
+    
+    .content3 h2 {
+        color: white;
+        font-size: 3em;
+    }
+    
+    .content3 p {
+        color: white;
+        font-size: 20px;
+    }
+    
+    .art main{
+        font-family: serif;
+        box-sizing: border-box;
+        background-image: url(../Images/images.jpg);
+        background-repeat: repeat;
+        background-size: 168px;
+        width: 100%;
+        padding: 100px 0px;
+    } 
+
+    .art h1 {
+        color: white;
+        font-size: 4em;
+        display: flex;
+        justify-content: center;
+        margin: 32px;
+    }
+
+    .box1 img {
+      height: auto;
+      width: 430px;
+      margin-bottom: 3em;
+      margin-top: 3em;
+    }
+    
+    .boxcontent1 {
+      width: 550px; 
+    }
+    
+    .boxcontent1 h2 {
+      color: white;
+      font-size: 40px;
+      text-transform: capitalize;
+    }
+    
+    .boxcontent1 p {
+       color: white;
+       font-size: 20px; 
+    }
+    
+    .box1 {
+      width: 1130px;
+      max-width: 95%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 500px;
+      width: 1160px;
+      padding: 20px 60px;
+      background-color: rgba(0, 108, 68, 0.888);
+      border-radius: 30px;
+      margin-left: 8%;
+    }
+    
+    .box2 img {
+      height: auto;
+      width: 430px;
+      margin-bottom: 3em;
+      margin-top: 3em;
+    }
+    
+    .boxcontent2 {
+      width: 550px; 
+    }
+    
+    .boxcontent2 h2 {
+      color: white;
+      font-size: 40px;
+      text-transform: capitalize;
+    }
+    
+    .boxcontent2 p {
+       color: white;
+       font-size: 20px; 
+    }
+    
+    .box2 {
+      width: 1130px;
+      max-width: 95%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 600px;
+      width: 1160px;
+      padding: 20px 60px;
+      background-color: rgba(0, 108, 68, 0.888);
+      border-radius: 30px;
+      margin-left: 8%;
+      margin-top: 5%;
+    }
+    
+    .box3 img {
+      height: auto;
+      width: 430px;
+      margin-bottom: 3em;
+      margin-top: 3em;
+    }
+    
+    .boxcontent3 {
+      width: 550px; 
+    }
+    
+    .boxcontent3 h2 {
+      color: white;
+      font-size: 40px;
+      text-transform: capitalize;
+    }
+    
+    .boxcontent3 p {
+       color: white;
+       font-size: 20px; 
+    }
+    
+    .box3 {
+      width: 1130px;
+      max-width: 95%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 650px;
+      width: 1160px;
+      padding: 20px 60px;
+      background-color: rgba(0, 108, 68, 0.888);
+      border-radius: 30px;
+      margin-left: 8%;
+      margin-top: 5%;
+    }
+      
+      .content {
+        width: 1130px;
+        max-width: 95%;
+        margin: 60px 100px;
+      }
+      
+      .titel img {
+        width: 590px;
+        height: auto;
+      }
+      
+      h2 {
+        color: white;
+        font-size: 60px;
+      }
+
+      .titel{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 9%;
+        margin-bottom: 5%;
+      }
+      
+      .paragraf {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 9%;
+        margin-bottom: 2em;
+      }
+      
+      .paragraf p {
+        color: white;
+        font-size: 20px;
+      }
+
+      .diego {
+        margin-left: 5em;
+      }
+
+      .paragraf1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 9%;
+        margin-bottom: 10px;
+      }
+      
+      .paragraf1 p {
+        color: white;
+        font-size: 20px;
+      }
+      
+      .paragraf2 {
+        margin-left: 9%;
+        margin-bottom: 8em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .paragraf2 p {
+        color: white;
+        font-size: 20px;
+        width: 1000px;
+        margin-left: 18%;
+      }
+      
+      .paragraf2 img {
+        width: 610px;
+        height: auto;
+      }
+      
+.button1 {
+        background-color: rgb(42, 91, 67); 
+        border-radius: 30%;
+        color: white;
+        border: 2px solid rgb(51, 149, 100);
+        padding: 14px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 21px;
+        margin-left: 36%;
+        margin-top: 5%;
+        transition-duration: 0.4s;
+        margin-bottom: 10%;
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+      }
+      
+    
